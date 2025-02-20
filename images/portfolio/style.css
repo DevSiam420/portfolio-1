@@ -1,0 +1,120 @@
+
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+.header{
+    background-image: url(../developer.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    background-size: 70px , 200px;
+    -webkit-box-pack: justify;
+}
+h3{
+    font-size: 45px;
+}
+span{
+    color: #FD6E0A;
+    font-size: 45px;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 113px;
+}
+nav , ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+/* color */
+.font-color{
+    color: #474747;
+}
+
+nav, ul , li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav, ul , li , a {
+text-decoration: none;
+font-size: 20px;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+}
+.btn-primary:hover{
+    text-shadow: 0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 40px cyan,
+    0 0 800px cyan;
+    color: white;
+}
+
+/* banner desing  */
+
+
+.siam-png{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    margin-right: 120px;
+    border: #f1c40f 10px solid;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+}
+.banner-content{
+    margin-left: 113px;
+}
+.btn-1{
+    background-color:#FD6E0A;
+    color: white;
+    border-radius: 5px;
+    padding: 17px 37px;
+    font-size: 22px;
+    border: none;
+    margin-right: 10px;
+}
+.btn-1:hover{
+    color: white;
+    text-shadow: 0 0 10px cyan,
+                 0 0 20px cyan,
+                 0 0 40px cyan,
+                 0 0 800px cyan;
+}
+.btn-2{
+    color:#FD6E0A ;
+    border-radius: 5px;
+    padding: 17px 37px;
+    font-size: 20px;
+    border: black 1px solid ;
+}
+.btn-2:hover{
+    color: white;
+    opacity: 90px;
+    text-shadow: 0 0 10px rgb(0, 234, 255),
+    0 0 20px cyan,
+    0 0 40px cyan,
+    0 0 800px cyan;
+}
+
+

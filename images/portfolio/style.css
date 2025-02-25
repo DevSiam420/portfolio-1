@@ -1,8 +1,14 @@
 /* font  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* background-color */
+
+
 .bg-color {
   color: #fff8f3;
 }
+
+
 .open-sans {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
@@ -153,6 +159,9 @@ a {
 
 /* section  */
 
+
+
+
 .about {
   border-radius: 10px;
   background-color: #fff8f3;
@@ -160,7 +169,9 @@ a {
   margin-top: 70px;
   width: 777px;
   height: 359px;
+  /* background: #fff8f3; */
 }
+
 .about-items {
   display: flex;
   justify-content: space-around;
@@ -270,6 +281,7 @@ hr {
 }
 
 .button {
+  margin-bottom: 60px;
     --color:#2cd5d7 ;
     padding: 0.8em 1.7em;
     background-color: transparent;
@@ -324,3 +336,79 @@ hr {
    .button:active {
     filter: brightness(.8);
    }
+
+
+
+   /* footer-desing  */
+
+   .footer{
+    background: #fff8f3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+   }
+
+
+   .colam-1{
+    color: #474747;
+    margin-top: 100px ;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 60px;
+   }
+   .footer-p{
+    font-size: 18px;
+    color: #757575;
+
+   }
+
+   .colam-2{
+    /* justify-content: stretch;
+    align-items: center; */
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px ;
+    margin-left: 150px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 60px;
+   }
+
+   .form{
+    padding: 12px;
+    margin-top: 12px;
+    display: block;
+    font-family: normal;
+    border-radius: 5px;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    height: 90%;
+   }
+
+   .button-4{
+    background-color: #fd6e0a;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    margin-top: 10px;
+   }  
+
+
+   .button-4:hover{
+    border: 1px solid #ff00ff;
+    box-shadow: 0 0 10px #2cd5d7;
+   }
+
+  .form:hover{
+    border: solid #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+  }
+  
